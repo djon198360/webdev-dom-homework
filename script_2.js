@@ -366,5 +366,4 @@ for (let i = 0; i < bbCodeButton.length; i++) {
     });
 
 }
-
 fetchRequest("GET");
