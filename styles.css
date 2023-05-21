@@ -418,6 +418,7 @@ animation: rotating 2s linear infinite;
 .error_popap__hide{
         visibility: hidden;
 }
+
 .error_popap_show{
         visibility: visible;
 }
