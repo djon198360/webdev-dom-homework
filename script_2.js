@@ -101,7 +101,6 @@ function fetchRequest(method, datas = null) {
             return response.json();
 
         })
-
         .then((data) => {
             if (answerStatus === 201) {
                 fetchRequest("GET");
