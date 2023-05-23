@@ -101,7 +101,6 @@ function fetchRequest(method, datas = null) {
             return response.json();
 
         })
-
         .then((data) => {
             if (answerStatus === 201) {
                 fetchRequest("GET");
@@ -366,5 +365,4 @@ for (let i = 0; i < bbCodeButton.length; i++) {
     });
 
 }
-
 fetchRequest("GET");
