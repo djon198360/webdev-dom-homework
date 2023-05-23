@@ -113,7 +113,7 @@ function fetchRequest(method, datas = null) {
              return   errorShow(data.error, answerStatus);
             }
             else if (answerStatus === 500) {
-                
+                errorShow('На сервере , что-то сломалось', '500');
                 return   fetchRequest(method, datas);
             }
             else {
