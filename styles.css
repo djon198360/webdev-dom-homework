@@ -379,9 +379,9 @@ gap: 5px;
 .loader_hidden{
 visibility: hidden;
 }
-
-.loader_visible{
-visibility:visible;
+.loader_visible{visibility:visible;}
+.loader{
+/*visibility:visible;*/
 width: 100%;
   height: 100%;
   position: fixed;
